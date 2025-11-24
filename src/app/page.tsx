@@ -1,11 +1,19 @@
 "use client";
 
-import { ChefHat } from "lucide-react";
+import { ChefHat, Grape, Wine, Heart, MessageCircle, UtensilsCrossed, Star, Award, Calendar, Users, BookOpen, Instagram, Linkedin, Newspaper, HelpCircle } from "lucide-react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import AboutFeature from '@/components/sections/about/AboutFeature';
+import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
+import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
+import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
+import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
+import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
+import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
+import FaqBase from '@/components/sections/faq/FaqBase';
+import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import Link from 'next/link';
 
@@ -58,80 +66,31 @@ export default function HomePage() {
       </div>
 
       <div id="about" data-section="about">
-        <div className="mx-auto px-4 md:px-6">
-          <AboutFeature
-            title="At Vkusnochino, we bring the heart of Italy to your table. Our family recipes passed down through generations, combined with the finest imported ingredients, create an authentic dining experience that transports you straight to the Italian countryside."
-            features={[
-              {
-                icon: ChefHat,
-                title: "Authentic Recipes",
-                description: "Traditional Italian recipes passed down through four generations of our family, preserving the authentic flavors of Italy."
-              },
-              {
-                icon: "Grape",
-                title: "Fresh Ingredients",
-                description: "We source the finest ingredients directly from Italy, including San Marzano tomatoes, Parmigiano-Reggiano, and extra virgin olive oil."
-              },
-              {
-                icon: "Wine",
-                title: "Curated Wine Selection",
-                description: "Expertly selected Italian wines from renowned regions like Tuscany, Piedmont, and Veneto to perfectly complement your meal."
-              },
-              {
-                icon: "Heart",
-                title: "Family Atmosphere",
-                description: "Experience the warmth of Italian hospitality in our cozy restaurant where every guest is treated like family."
-              }
-            ]}
-          />
-        </div>
-      </div>
-
-      <div id="testimonials" data-section="testimonials">
-        <div className="mx-auto px-4 md:px-6">
-          <TestimonialCardThree
-            title="What Our Guests Say"
-            description="Real experiences from our valued customers"
-            tag="Reviews"
-            tagIcon="MessageCircle"
-            textboxLayout="default"
-            animationType="slide-up"
-            testimonials={[
-              {
-                id: "1",
-                name: "Sarah Johnson",
-                handle: "@sarahfoodie",
-                testimonial: "The most authentic Italian experience outside of Italy! The pasta carbonara was absolutely perfect - just like my nonna used to make.",
-                imageSrc: "https://pixabay.com/get/gb502bf2cb9120c17407a8b254b9ab7bf1d4576cfc87fe1a240482a96298b3a9c93b8e3c582ec561049fdc0f30bb17c5cc450eccd1760a0a92ba0e3d1b2de53ab_1280.jpg",
-                imageAlt: "Sarah Johnson customer"
-              },
-              {
-                id: "2",
-                name: "Michael Chen",
-                handle: "@mikeeats",
-                testimonial: "Incredible atmosphere and even better food. The wood-fired pizza had the perfect crust and the wine selection was outstanding.",
-                imageSrc: "https://pixabay.com/get/g0aec755e7c28bc5b9d1317b171de8d8afa15a7852b6dc1558b2a765a716f67c45cbdfe0ef61e6dfa1cebe4b54b2d401b57c8946cac3bdebfc0854c9a93caf433_1280.jpg",
-                imageAlt: "Michael Chen customer"
-              },
-              {
-                id: "3",
-                name: "Emma Rodriguez",
-                handle: "@emmalovesitaly",
-                testimonial: "Giuseppe's tiramisu is pure magic! This place transports you straight to a cozy trattoria in Rome. Bellissimo!",
-                imageSrc: "https://pixabay.com/get/gb1bd33609224067a2dc055d480dd8fa4bb8a2e49b2712fa0c2b4f604fb7ae8fb1a34d5bd64a44e2d96356cd88015e33969c066cb67e9d570623fbd50db746dcd_1280.jpg",
-                imageAlt: "Emma Rodriguez customer"
-              },
-              {
-                id: "4",
-                name: "David Thompson",
-                handle: "@davidtdines",
-                testimonial: "Family-owned warmth with professional excellence. The osso buco was tender and flavorful - a true masterpiece.",
-                imageSrc: "https://pixabay.com/get/g4d21a35a89d784a0ce413bf99cdcada0382c9459a10ca09039737652d27b742309d807260daaf84ccc5844700a8a3f84168c6e757feac8d5c8905c0e61d10c7e_1280.jpg",
-                imageAlt: "David Thompson customer"
-              }
-            ]}
-          />
-        </div>
+        <AboutFeature
+          title="At Vkusnochino, we bring the heart of Italy to your table. Our family recipes passed down through generations, combined with the finest imported ingredients, create an authentic dining experience that transports you straight to the Italian countryside."
+          features={[
+            {
+              icon: ChefHat,
+              title: "Authentic Recipes",
+              description: "Traditional Italian recipes passed down through four generations of our family, preserving the authentic flavors of Italy."
+            },
+            {
+              icon: Grape,
+              title: "Fresh Ingredients",
+              description: "We source the finest ingredients directly from Italy, including San Marzano tomatoes, Parmigiano-Reggiano, and extra virgin olive oil."
+            },
+            {
+              icon: Wine,
+              title: "Curated Wine Selection",
+              description: "Expertly selected Italian wines from renowned regions like Tuscany, Piedmont, and Veneto to perfectly complement your meal."
+            },
+            {
+              icon: Heart,
+              title: "Family Atmosphere",
+              description: "Experience the warmth of Italian hospitality in our cozy restaurant where every guest is treated like family."
+            }
+          ]}
+        />
       </div>
 
       <div id="footer" data-section="footer">
