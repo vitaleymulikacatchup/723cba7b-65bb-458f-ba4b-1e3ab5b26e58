@@ -49,28 +49,28 @@ export default function MenuPage() {
           textboxLayout="default"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Pasta Tradizionale",
               description: "Hand-made pasta with traditional sauces including Carbonara, Amatriciana, and Cacio e Pepe, prepared with authentic Roman techniques and finest Italian ingredients.",
               imageSrc: "https://pixabay.com/get/gead27a014466bbe20985a9b13164841bcb5633976344892ef5f1b342c24cc31af35a810dbc330e8a44b7bef47577a1e311c03e607bedf78605e8598ef5d2a7d9_1280.jpg",
               imageAlt: "Traditional Italian pasta dishes"
             },
             {
-              id: "2",
+              id: 2,
               title: "Pizza Napoletana",
               description: "Wood-fired pizza with San Marzano tomatoes, fresh mozzarella di bufala, and basil. Our dough is aged 48 hours for the perfect Neapolitan texture.",
               imageSrc: "https://pixabay.com/get/g0cfcae519b591201a84b8548a80eb853d7ff806752a714dfd3919acfd2dcf18261943b6a6df245f330b33bee45cfbddc24b903a808c86016f753f841b71af715_1280.jpg",
               imageAlt: "Authentic Neapolitan pizza margherita"
             },
             {
-              id: "3",
+              id: 3,
               title: "Risotto Perfetto",
               description: "Creamy Arborio rice slow-cooked with seasonal ingredients like porcini mushrooms, saffron, or fresh seafood from the Adriatic coast.",
               imageSrc: "https://pixabay.com/get/g34bfbca9b745edc110e2da94f931db27a96654797bc5ffe1ee707b44f8f212e93738a67cd29918be333c2272feb17bbc078e053dd5b786c8ba70e85e8d65e328_1280.jpg",
               imageAlt: "Creamy Italian risotto with mushrooms"
             },
             {
-              id: "4",
+              id: 4,
               title: "Dolci della Casa",
               description: "Traditional Italian desserts including our famous Tiramisu, Panna Cotta, and Cannoli Siciliani, made fresh daily with imported mascarpone and espresso.",
               imageSrc: "https://pixabay.com/get/g3402d77cd6c6f78917488a26e6b9a65f3e9b3eddaec5bd7e986d9825f7da144ae9b7086306cc12e5ce1c6898c748c0945fb92ca1c94f3efd307634b88ad968e6_1280.jpg",

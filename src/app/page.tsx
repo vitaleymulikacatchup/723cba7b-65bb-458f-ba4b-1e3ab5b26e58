@@ -1,19 +1,10 @@
 "use client";
 
-import { ChefHat, Grape, Wine, Heart, MessageCircle, UtensilsCrossed, Star, Award, Calendar, Users, BookOpen, Instagram, Linkedin, Newspaper, HelpCircle } from "lucide-react";
+import { ChefHat, Grape, Wine, Heart } from "lucide-react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import AboutFeature from '@/components/sections/about/AboutFeature';
-import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
-import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
-import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
-import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
-import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import FaqBase from '@/components/sections/faq/FaqBase';
-import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import Link from 'next/link';
 
